@@ -26,17 +26,17 @@ public class TrackerController {
         return trackerService.getAllEntries();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/entries/{id}")
     public Optional<TrackerModel> getEntryById(@PathVariable Long id) {
         return trackerService.getEntryById(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/entries/{id}")
     public TrackerModel updateEntry(@PathVariable Long id, @RequestBody TrackerModel updatedEntry) {
         return trackerService.updateEntry(id, updatedEntry);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/entries/{id}")
     public String deleteEntry(@PathVariable Long id) {
         trackerService.deleteEntry(id);
         return "Entry deleted successfully!";
