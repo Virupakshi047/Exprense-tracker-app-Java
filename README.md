@@ -11,3 +11,5 @@
 ![5](https://github.com/user-attachments/assets/f3f00459-3ee2-42f3-855b-4d55ad2b198f)
 ### 6. Get total Income - Sammary
 ![6](https://github.com/user-attachments/assets/7075c107-1fa9-4b11-85c8-ec760e2fd5b8)
+### MySQL DB
+![image](https://github.com/user-attachments/assets/3879e2f4-7f14-4430-bf34-74db35bfc30c)
